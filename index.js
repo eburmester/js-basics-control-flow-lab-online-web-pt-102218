@@ -19,7 +19,8 @@ function ternaryCheckCity(city){
   let greeting
   
   city === 'NYC' ? (greeting = 'Ok, sounds good.') : (greeting = 'No go.');
-
+  
+  return greeting 
 }
 
 function switchOnCharmFromTip(tip){
@@ -35,4 +36,5 @@ function switchOnCharmFromTip(tip){
     default:
         response = "Bye.";
   }
+  return greeting 
 }
