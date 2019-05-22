@@ -36,5 +36,5 @@ function switchOnCharmFromTip(tip){
     default:
         response = "Bye.";
   }
-  return greeting 
+  return response 
 }
